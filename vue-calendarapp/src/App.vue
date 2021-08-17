@@ -13,7 +13,7 @@
       </div>
     </div>
     <footer>
-      Copyrights Reserved © 2021 | Comitium Pvt. Ltd.
+      Copyrights Reserved © 2021 | Comitium Pvt. Ltd. (Sample footed Content ;p)
     </footer>
   </div>
 </template>
