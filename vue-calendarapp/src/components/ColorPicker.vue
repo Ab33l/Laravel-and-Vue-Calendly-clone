@@ -2,7 +2,12 @@
   <div class="picker-main"> 
     <h4 class="header">Select event theme</h4>
     <div class="color-picker">
-      <div class="color" v-for="(theme, index) in colors" :key="index" @click="selectColor(theme)" :class="{selected: color === theme, [theme]: theme}"></div>
+      <div class="color"
+            v-for="(theme, index) in colors"
+            :key="index"
+            @click="selectColor(theme)"
+            :class="{selected: color === theme, [theme]: theme}">
+      </div>
     </div>
   </div>
 </template>
@@ -25,20 +30,15 @@ export default {
 </script>
 
 <style scoped>
-.picker-main {
-  width: 55%;
+h4{
+  margin-bottom: 1rem;
 }
-.header {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: orangered;
-  letter-spacing: 0.5px;
-  margin: 0 0 6px;
-  text-align: left;
+.picker-main {
+  min-width: 180px;
 }
 .color-picker {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .color-picker > .color {
   width: 40px;

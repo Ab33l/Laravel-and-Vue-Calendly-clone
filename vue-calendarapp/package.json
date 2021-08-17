@@ -10,8 +10,10 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "date-fns": "^2.23.0",
+    "pusher-js": "^7.0.3",
     "vue": "^2.6.11",
     "vue-fullcalendar": "^1.0.9",
+    "vue-mq": "^1.0.1",
     "vuejs-datepicker": "^1.6.2"
   },
   "devDependencies": {
